@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {    
+    background-image: url(img/1617630043_282201_1617630184_noticia_normal_recorte1.jpg);
+    background-repeat: no-repeat;
+    background-position: 80% 20%;
+    background-size:cover ;
+    background-attachment: fixed;
+    position: relative;
+    height: 600px; ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titulo-principal {
+    font-size: 50px;
+    color: rgba(0, 100, 0, 0.794);
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.descripcion {
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.global {
+    text-transform: uppercase;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top:30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:rgba(0, 100, 78, 0.822);
+}
+
+.p1 {
+    color:white;
+}
+
+.p2 {
+    color:green;
+}
+
+.p3 {
+    color:darkred;
+}
+
+.p4 {
+    color:blueviolet;
+}
+
+.p5 {
+    color:darkblue;
+}
